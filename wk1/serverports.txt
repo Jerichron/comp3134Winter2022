@@ -1,0 +1,20 @@
+Q1. • What is the definition of server port?
+A Server port is the endpoint of a network connection that is used to send information between a web server and a web client.
+
+Q2. • What is server port range?
+Server port range is from 0 to 65535.
+
+Q3. • How many bits does number above represent?
+16 Bit.
+
+Q4. • State 10 common server ports.
+- MySQL – 3306.
+- WHM (Webhost Manager) – 2086.
+- WHM (Webhost Manager) SSL – 2087.
+- HTTP – Port 80.
+- HTTPS – 443.
+- FTP – 21.
+- FTPS / SSH – 22.
+- Webmail – 2095.
+- Webmail SSL – 2096.
+- POP3 – 110.
