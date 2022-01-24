@@ -1,0 +1,24 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping 157.240.14.35
+PING 157.240.14.35 (157.240.14.35) 56(84) bytes of data.
+64 bytes from 157.240.14.35: icmp_seq=1 ttl=55 time=42.0 ms
+64 bytes from 157.240.14.35: icmp_seq=2 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=3 ttl=55 time=41.3 ms
+64 bytes from 157.240.14.35: icmp_seq=4 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=5 ttl=55 time=41.9 ms
+64 bytes from 157.240.14.35: icmp_seq=6 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=7 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=8 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=9 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=10 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=11 ttl=55 time=41.3 ms
+64 bytes from 157.240.14.35: icmp_seq=12 ttl=55 time=41.2 ms
+
+64 bytes from 157.240.14.35: icmp_seq=13 ttl=55 time=41.1 ms
+64 bytes from 157.240.14.35: icmp_seq=14 ttl=55 time=41.1 ms
+64 bytes from 157.240.14.35: icmp_seq=15 ttl=55 time=41.2 ms
+64 bytes from 157.240.14.35: icmp_seq=16 ttl=55 time=41.1 ms
+64 bytes from 157.240.14.35: icmp_seq=17 ttl=55 time=41.1 ms
+^C
+--- 157.240.14.35 ping statistics ---
+17 packets transmitted, 17 received, 0% packet loss, time 16022ms
+rtt min/avg/max/mdev = 41.097/41.269/41.960/0.242 ms

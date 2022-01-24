@@ -1,0 +1,61 @@
+IPv4 address for www.facebook.com
+Domain Name Server IP: 157.240.14.35
+Country
+USUS
+Region
+Florida
+City
+Miami
+Latitude
+25.77427
+Longitude
+-80.19366
+Postal code
+33101
+Time zone offset by UTC
+-05:00
+Geoname ID
+4164138
+
+---------------------
+
+IP Address: 151.101.65.140
+
+Geolocation: US (United States), CA, California, 94107 San Francisco - Google Maps
+
+-----------------------
+
+Domain Name: github.com
+
+Top Level Domain: COM (Commercial TLD)
+
+IP Address: 140.82.114.3
+
+Geolocation: US (United States), MA, Massachusetts, 02110 Boston - Google Maps
+
+Reverse DNS: lb-140-82-114-3-iad.github.com
+
+--------------------------
+
+
+Domain Name: netflix.com
+
+Top Level Domain: COM (Commercial TLD)
+
+IP Address: 3.225.92.8
+
+Geolocation: US (United States), N/A, N/A, N/A N/A - Google Maps
+
+Reverse DNS: ec2-3-225-92-8.compute-1.amazonaws.com
+
+-------------------------
+
+Domain Name: en.wikipedia.org
+
+Top Level Domain: ORG (Organization)
+
+IP Address: 208.80.154.224
+
+Geolocation: US (United States), CA, California, 94105 San Francisco - Google Maps
+
+Reverse DNS: text-lb.eqiad.wikimedia.org

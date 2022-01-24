@@ -1,0 +1,18 @@
+ tracert youtube.com
+
+Tracing route to youtube.com [172.217.165.14]
+over a maximum of 30 hops:
+
+  1     1 ms    <1 ms    <1 ms  mynetwork [192.168.2.1]
+  2    12 ms    19 ms     7 ms  10.11.1.145
+  3     *        *        *     Request timed out.
+  4     4 ms     5 ms     5 ms  tcore4-toronto21_hu2/5/0/3_35.net.bell.ca [64.230.59.188]
+  5     8 ms     8 ms     7 ms  tcore4-toronto21-bundle-ether38.net.bell.ca [142.124.127.202]
+  6     4 ms     *        *     tcore2-torontoxn_ae3.net.bell.ca [64.230.51.162]
+  7     4 ms     4 ms     6 ms  bx3-torontoxn_hundredgige0-2-0-0.net.bell.ca [64.230.97.147]
+  8     *        *        *     Request timed out.
+  9     4 ms     5 ms     4 ms  209.85.249.15
+ 10     4 ms     5 ms     4 ms  216.239.41.175
+ 11     6 ms     5 ms     4 ms  yyz12s06-in-f14.1e100.net [172.217.165.14]
+
+Trace complete.
