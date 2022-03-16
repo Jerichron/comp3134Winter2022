@@ -1,0 +1,36 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 -c 30
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+01:36:33.716701 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.26630: Flags [P.], seq 2599663299:2599663427, ack 3795655061, win 502, options [nop,nop,TS val 2213126025 ecr 3999597787], length 128
+01:36:33.716775 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.26630: Flags [P.], seq 128:320, ack 1, win 502, options [nop,nop,TS val 2213126025 ecr 3999597787], length 192
+01:36:33.716831 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh > 162.243.188.66.26630: Flags [P.], seq 320:384, ack 1, win 502, options [nop,nop,TS val 2213126025 ecr 3999597787], length 64
+01:36:33.719075 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47661 > 67.207.67.3.domain: 32272+ [1au] PTR? 66.188.243.162.in-addr.arpa. (56)
+01:36:33.719136 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.56568 > 67.207.67.3.domain: 60257+ [1au] PTR? 66.188.243.162.in-addr.arpa. (56)
+01:36:33.719174 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.43836 > 67.207.67.3.domain: 55414+ [1au] PTR? 66.188.243.162.in-addr.arpa. (56)
+01:36:33.729693 IP 162.243.188.66.26630 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 128, win 501, options [nop,nop,TS val 3999597807 ecr 2213126025], length 0
+01:36:33.729694 IP 162.243.188.66.26630 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 320, win 501, options [nop,nop,TS val 3999597807 ecr 2213126025], length 0
+01:36:33.729694 IP 162.243.188.66.26630 > lamp-ubuntu-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 384, win 501, options [nop,nop,TS val 3999597807 ecr 2213126025], length 0
+01:36:33.752909 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.56568: 60257 NXDomain 0/1/1 (123)
+01:36:33.753050 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47661: 32272 NXDomain 0/1/1 (123)
+01:36:33.753085 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.56568 > 67.207.67.3.domain: 60257+ PTR? 66.188.243.162.in-addr.arpa. (45)
+01:36:33.753206 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.47661 > 67.207.67.3.domain: 32272+ PTR? 66.188.243.162.in-addr.arpa. (45)
+01:36:33.754110 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.56568: 60257 NXDomain 0/1/0 (112)
+01:36:33.754204 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.47661: 32272 NXDomain 0/1/0 (112)
+01:36:33.755292 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.43836: 55414 NXDomain 0/1/1 (123)
+01:36:33.755377 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.43836 > 67.207.67.3.domain: 55414+ PTR? 66.188.243.162.in-addr.arpa. (45)
+01:36:33.755716 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.43836: 55414 NXDomain 0/1/0 (112)
+01:36:33.756293 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39408 > 67.207.67.3.domain: 22717+ [1au] PTR? 143.223.110.143.in-addr.arpa. (57)
+01:36:33.756342 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.50158 > 67.207.67.3.domain: 42535+ [1au] PTR? 143.223.110.143.in-addr.arpa. (57)
+01:36:33.756392 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.35221 > 67.207.67.3.domain: 216+ [1au] PTR? 143.223.110.143.in-addr.arpa. (57)
+01:36:33.773660 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35221: 216 NXDomain 0/1/1 (124)
+01:36:33.773847 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.35221 > 67.207.67.3.domain: 216+ PTR? 143.223.110.143.in-addr.arpa. (46)
+01:36:33.774821 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39408: 22717 NXDomain 0/1/1 (124)
+01:36:33.774885 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.35221: 216 NXDomain 0/1/0 (113)
+01:36:33.774979 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.50158: 42535 NXDomain 0/1/1 (124)
+01:36:33.775106 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.39408 > 67.207.67.3.domain: 22717+ PTR? 143.223.110.143.in-addr.arpa. (46)
+01:36:33.775242 IP lamp-ubuntu-s-1vcpu-1gb-tor1-01.50158 > 67.207.67.3.domain: 42535+ PTR? 143.223.110.143.in-addr.arpa. (46)
+01:36:33.775630 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.39408: 22717 NXDomain 0/1/0 (113)
+01:36:33.775705 IP 67.207.67.3.domain > lamp-ubuntu-s-1vcpu-1gb-tor1-01.50158: 42535 NXDomain 0/1/0 (113)
+30 packets captured
+44 packets received by filter
+9 packets dropped by kernel
